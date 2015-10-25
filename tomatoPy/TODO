@@ -1,0 +1,36 @@
+Create Serializers for TvShows, Movies
+Create REST-API views for TvShows, Movies
+
+Views:
+    - TvShows
+        * a list of TvShows registered by the client
+
+    - Movies
+        * a list of movies registered by the client and not already synchronized
+        * @POST view to add movies from REST-API
+
+updates urls in (proj, apps)
+
+Create (HTML) Views and Forms for TvShows and Movies
+
+Views:
+    - TvShows
+        simple add form
+        list display
+
+    - Movies
+        add form with research in imdb for movie name and in thepiratebay for the magnet or torrent link
+
+
+a = (
+(1,	    'The Mentalist',	    '1080|720',	None,	                    750000000),
+(2,	    'Family Guy',	        '1080|720', None),
+(3,	    'Homeland',	            '1080',		None,                       800000000),
+(4,	    'The Big Bang Theory',	'720|1080',	None,	                    400000000),
+(5,	    'Game Of Thrones',	    '720',	    'eztv|ettv|DibyaTPB|rartv',	1000000000, 2000000000),
+(7,	    'True Detective',	    '720',	    'TvTeam|DibyaTPB|Thhaque',	900000000),
+(9,	    'House Of Cards (2013)','720p',	    'DibyaTPB|TvTeam')
+(10,	'The Good Wife',	    '720',		None,                       640000000),
+(11,	'Scandal (2012)',	    '720',		None,                       800000000,	'Scandal'),
+(12,	'Supernatural',	        '720',		None,                       600000000))
+
